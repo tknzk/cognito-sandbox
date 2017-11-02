@@ -1,1 +1,1 @@
-# cognite-sandbox
+# cognito-sandbox
