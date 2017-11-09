@@ -1,0 +1,14 @@
+
+signup:confirm
+
+<br />
+
+<%= form_tag ('/signup/confirm') do %>
+  name: <%= text_field_tag('name') %>
+  <br />
+  code: <%= text_field_tag('code') %>
+  <br />
+  <%= submit_tag('submit') %>
+
+<% end %>
+

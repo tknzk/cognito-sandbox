@@ -1,0 +1,16 @@
+
+signup:new
+
+<br />
+
+<%= form_tag ('/signup') do %>
+  email: <%= text_field_tag('email') %>
+  <br />
+  name: <%= text_field_tag('name') %>
+  <br />
+  password: <%= password_field_tag('password') %>
+  <br />
+  <%= submit_tag('submit') %>
+
+<% end %>
+
