@@ -20,4 +20,6 @@
 
 .byebug_history
 
+# credentials
 credentials-cognito-sandbox.csv
+.env
