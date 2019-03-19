@@ -3,6 +3,9 @@ class LoginController < ApplicationController
   def new
   end
 
+  def facebook
+  end
+
   def auth
     # binding.pry
     val = params.permit(:email, :name, :password)

@@ -10,4 +10,9 @@ Rails.application.routes.draw do
   get     '/login'         => 'login#new'
   post    '/login'         => 'login#auth'
 
+  match "/auth/:provider/callback" => "sessions#callback"
+  match "/logout" => "sessions#destroy", :as => :logout
+
+
+
 end
