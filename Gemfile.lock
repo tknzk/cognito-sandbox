@@ -781,9 +781,8 @@ GEM
     hashie (3.6.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.8.0)
+    jbuilder (2.9.1)
       activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
     jmespath (1.4.0)
     listen (3.2.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -800,7 +799,6 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
-    multi_json (1.13.1)
     nio4r (2.5.2)
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
@@ -905,7 +903,7 @@ DEPENDENCIES
   capybara (~> 3.29)
   coffee-rails (~> 5.0)
   dotenv-rails
-  jbuilder (~> 2.5)
+  jbuilder (~> 2.9)
   listen (>= 3.0.5, < 3.3)
   omniauth
   pry-byebug
