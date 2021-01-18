@@ -803,7 +803,7 @@ GEM
     nokogiri (1.11.0)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    omniauth (2.0.0)
+    omniauth (2.0.1)
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
       rack-protection
