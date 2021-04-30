@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: rails
+    versions:
+    - ">= 6.a, < 7"
+  - dependency-name: omniauth
+    versions:
+    - 2.0.3
